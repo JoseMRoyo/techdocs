@@ -1,5 +1,6 @@
 site_name: Documentación
 site_description: An informative description
+docs_dir: docs
 plugins:
   - techdocs-core
 nav:
