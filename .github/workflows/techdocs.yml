@@ -40,7 +40,6 @@ jobs:
           java-version: '11'
       - name: download, validate, install plantuml and its dependencies
         run: |
-          cd backstage/techdocs
           curl -o plantuml.jar -L http://sourceforge.net/projects/plantuml/files/plantuml.1.2021.4.jar/download
           echo "be498123d20eaea95a94b174d770ef94adfdca18  plantuml.jar" | sha1sum -c -
           mv plantuml.jar /opt/plantuml.jar
