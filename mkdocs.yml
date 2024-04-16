@@ -1,0 +1,10 @@
+site_name: Documentación
+site_description: An informative description
+plugins:
+  - techdocs-core
+nav:
+  - Getting Started: index.md
+  - Conceptos: Conceptos.md
+  - Integracion: Integracion.md
+  - Complementos: Complementos.md
+  - Arquitectura: Arquitectura.md
