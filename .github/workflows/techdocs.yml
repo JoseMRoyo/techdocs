@@ -59,4 +59,4 @@ jobs:
         run: techdocs-cli generate --no-docker --verbose 
       
       - name: Publishing doc site
-        run: techdocs-cli build --output-dir ./docs 
+        run: techdocs-cli build
