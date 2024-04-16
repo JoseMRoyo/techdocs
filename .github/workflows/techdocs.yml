@@ -57,3 +57,6 @@ jobs:
 
       - name: Generate docs site
         run: techdocs-cli generate --no-docker --verbose
+      
+      - name: Publishing doc site
+        run: techdocs-cli publish
